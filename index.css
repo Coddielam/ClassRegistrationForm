@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(34, 34, 34);
+}
+
+body {
+  background-color: rgba(0, 78, 151, 0.705);
+}
+
+#root {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#App {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  width: 80vw;
+  background-color: whitesmoke;
+  padding: 5vw;
+  box-shadow: 2px 2px 8px rgb(20, 20, 20);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: space-between;
+}
+
+label.inputField {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  font-weight: bold;
+}
+
+#restrictions {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+#restrictions label {
+  font-weight: normal;
+  padding: 2px;
+}
+
+button {
+  width: fit-content;
+  padding: 8px 20px;
+  transition: 0.3s;
+  background-color: rgba(255, 184, 52, 0.822);
+  border: solid transparent;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: rgb(255, 255, 255);
+  border: solid;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 5vh;
+}
+
+table,
+th,
+td {
+  border: solid 2px rgb(31, 31, 31);
+  text-align: center;
+}
+
+th {
+  background-color: rgb(0, 128, 75);
+  font-size: larger;
+}
+
+button.removeBtn {
+  width: 100%;
+  background-color: rgba(212, 0, 28, 0.747);
+  color: wheat;
+}
+
+button.removeBtn:hover {
+  background-color: whitesmoke;
+  color: black;
+}
